@@ -1,0 +1,87 @@
+.content {
+  width: 1278px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header {
+  position: relative;
+}
+
+#anakin {
+  height: 400px;
+}
+
+#introduction {
+  position: absolute;
+  left: 300px;
+  bottom: 50px;
+  font-family: "Abril Fatface", cursive;
+  font-size: 30px;
+}
+
+#skywalker {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.text {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph {
+  padding: 40px 40px 40px 40px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 150%;
+}
+
+#intro {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.quote {
+  background: grey;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 46px;
+  padding: 10px 0;
+  position: relative;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 140px;
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+h2, h3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+h3 {
+   padding-top: 20px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+}
+
+#interests {
+  border-top: 4px black solid;
+}
